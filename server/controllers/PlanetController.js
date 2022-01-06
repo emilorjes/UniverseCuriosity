@@ -1,5 +1,9 @@
-const getPlanets = (req, res) => {
+const getPlanet = (req, res) => {
   res.send('IT WORKS');
 };
 
-module.exports = { getPlanets };
+const createPlanet = (req, res) => {
+  res.send('POST CREATION');
+};
+
+module.exports = { getPlanet, createPlanet };
