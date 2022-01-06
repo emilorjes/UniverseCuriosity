@@ -7,3 +7,4 @@ const app = express();
 mongoose.connect(process.env.TEST_DB);
 app.listen(process.env.PORT);
 app.use('/planets', planetRoutes);
+app.use('/createPlanet', planetRoutes);
