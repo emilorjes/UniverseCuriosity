@@ -7,7 +7,8 @@ on:
   push:
     paths:
       - 'server/**'
-    branches: [server]
+      - 'client/**'
+    branches: [server, client]
   pull_request:
     branches: [develop]
 
