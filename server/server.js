@@ -9,7 +9,7 @@ app.use(express.json({ limit: '30mb', extended: true }));
 app.use(express.urlencoded({ limit: '30mb', extended: true }));
 app.use(cors());
 
-mongoose.connect(process.env.TEST_DB);
-app.listen(process.env.PORT);
+mongoose.connect(process.env.TEST_DB).then(() => app.listen(process.env.PORT));
+
 app.use('/planets', planetRoutes);
 app.use('/createPlanet', planetRoutes);
