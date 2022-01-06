@@ -1,5 +1,8 @@
 const mongoose = require('mongoose');
 
+/**
+ * Schema for creating a planet.
+ */
 const planetSchema = new mongoose.Schema({
   name: {
     type: String,

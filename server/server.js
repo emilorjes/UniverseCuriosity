@@ -1,7 +1,7 @@
 require('dotenv').config();
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
+const express = require('express'); // Framework for routes and handling requests.
+const mongoose = require('mongoose'); // Makes connection to MongoDB easier and to create models.
+const cors = require('cors'); // Request between server and client.
 const planetRoutes = require('./routes/PlanetRoutes');
 
 const app = express();

@@ -1,5 +1,10 @@
 const PlanetModel = require('../models/PlanetModel');
 
+/**
+ * Callback function that gets all planets when called.
+ * @param request req
+ * @param response res
+ */
 const getPlanets = async (req, res) => {
   try {
     const planets = await PlanetModel.find();
@@ -9,6 +14,11 @@ const getPlanets = async (req, res) => {
   }
 };
 
+/**
+ * Callback function that creates a planet when used.
+ * @param request req
+ * @param response res
+ */
 const createPlanet = async (req, res) => {
   const planet = req.body;
   const newPlanet = new PlanetModel(planet);
