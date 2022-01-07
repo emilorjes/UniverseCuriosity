@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react';
+import { React, useState, useEffect } from 'react';
 import Axios from 'axios';
-const TestDb = () => {
+
+function TestDb() {
   const [lisOfPlanets, setListOfPlanets] = useState([]);
 
   useEffect(() => {
@@ -11,18 +12,16 @@ const TestDb = () => {
 
   return (
     <div>
-      {lisOfPlanets.map((planet) => {
-        return (
+      {lisOfPlanets.map((planet) => (
           <div>
             <h1>Name: {planet.name}</h1>
             <p>Position from sun: {planet.position}</p>
             <p>Number of moons: {planet.moons}</p>
             <p>Description: {planet.description}</p>
           </div>
-        );
-      })}
+        ))}
     </div>
   );
-};
+}
 
 export default TestDb;
