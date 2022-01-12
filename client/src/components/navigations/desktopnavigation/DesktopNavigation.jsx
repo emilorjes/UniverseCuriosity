@@ -5,13 +5,16 @@ import './DesktopNavigation.css';
 
 function DesktopNavigation() {
   return (
-    <div className="navbar">
-      <div className="nav-items">
-        <Link to={RoutingPath.universeView}>UNIVERSE</Link>
-        <Link to={RoutingPath.planetsView}>PLANETS</Link>
-        <Link to={RoutingPath.aboutView}>ABOUT</Link>
-      </div>
-    </div>
+    <header>
+      <h1 className="logo">UNIVERSE CURIOSITY</h1>
+      <nav>
+        <ul>
+          <Link to={RoutingPath.universeView}>UNIVERSE</Link>
+          <Link to={RoutingPath.planetsView}>PLANETS</Link>
+          <Link to={RoutingPath.aboutView}>ABOUT</Link>
+        </ul>
+      </nav>
+    </header>
   );
 }
 

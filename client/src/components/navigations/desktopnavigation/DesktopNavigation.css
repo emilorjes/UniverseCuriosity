@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+nav ul {
+  margin-right: 15rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10rem;
+}
+
+.logo {
+  margin: 2rem;
+}
