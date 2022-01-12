@@ -1,15 +1,8 @@
 import React from 'react';
-import './App.css';
-import TestDb from './components/testdb/TestDb';
+import RoutesV6 from './routes/RoutesV6';
 
 function App() {
-  return (
-    <div className="App">
-      <div>
-        <TestDb />
-      </div>
-    </div>
-  );
+  return <RoutesV6 />;
 }
 
 export default App;
