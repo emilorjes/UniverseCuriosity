@@ -1,15 +1,8 @@
 import React from 'react';
-import './App.css';
-import TestDb from './components/testdb/TestDb';
+import Router from './routes/Router';
 
 function App() {
-  return (
-    <div className="App">
-      <div>
-        <TestDb />
-      </div>
-    </div>
-  );
+  return <Router />;
 }
 
 export default App;
