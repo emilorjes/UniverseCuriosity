@@ -5,7 +5,7 @@ import PlanetsView from '../views/planetsview/PlanetsView';
 import AboutView from '../views/aboutview/AboutView';
 import RoutingPath from './RoutingPath';
 
-function RoutesV6() {
+function Router() {
   return (
     <BrowserRouter>
       <Routes>
@@ -17,4 +17,4 @@ function RoutesV6() {
   );
 }
 
-export default RoutesV6;
+export default Router;

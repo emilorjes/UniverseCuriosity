@@ -1,8 +1,8 @@
 import React from 'react';
-import RoutesV6 from './routes/RoutesV6';
+import Router from './routes/Router';
 
 function App() {
-  return <RoutesV6 />;
+  return <Router />;
 }
 
 export default App;
