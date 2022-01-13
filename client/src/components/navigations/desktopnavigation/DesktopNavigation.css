@@ -4,18 +4,30 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 5rem;
-}
-
-nav ul {
-  margin-right: 15rem;
+  padding-top: 2rem;
 }
 
 nav ul a {
   text-decoration: none;
   color: var(--clr-white);
-  margin-left: 10rem;
+  font-size: 2rem;
+  margin-right: 10rem;
+}
+
+nav ul a:hover {
+  transition: all 0.4s ease;
+  color: var(--clr-blue-light);
 }
 
 .logo {
-  margin: 2rem;
+  text-decoration: none;
+  color: var(--clr-white);
+  margin-left: 10rem;
+  font-size: 3rem;
+}
+
+.logo-slogan {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
 }

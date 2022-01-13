@@ -6,7 +6,10 @@ import './DesktopNavigation.css';
 function DesktopNavigation() {
   return (
     <header>
-      <h1 className="logo">UNIVERSE CURIOSITY</h1>
+      <Link to={RoutingPath.universeView} className="logo">
+        UNIVERSE CURIOSITY
+        <span className="logo-slogan">A JOURNEY TROUGH SPACE AND TIME</span>
+      </Link>
       <nav>
         <ul>
           <Link to={RoutingPath.universeView}>UNIVERSE</Link>
