@@ -1,7 +1,18 @@
+:root {
+  --clr-black: #000000;
+  --clr-white: #ffffff;
+  --clr-blue-dark: #191970;
+  --clr-blue-light: #3f3fd4;
+}
+
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: linear-gradient(180.16deg, #000000 25%, #191970 110%);
-  color: white;
+  background: linear-gradient(
+    180.16deg,
+    var(--clr-black) 25%,
+    var(--clr-blue-dark) 110%
+  );
+  color: var(--clr-white);
 }
