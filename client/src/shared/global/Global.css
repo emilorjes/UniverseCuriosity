@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  font-family: 'Roboto Mono', monospace;
   background: linear-gradient(
     180.16deg,
     var(--clr-black) 25%,
