@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 import RoutingPath from '../../../routes/RoutingPath';
 import './DesktopNavigation.css';
 
@@ -12,9 +12,15 @@ function DesktopNavigation() {
       </Link>
       <nav>
         <ul>
-          <Link to={RoutingPath.universeView}>UNIVERSE</Link>
-          <Link to={RoutingPath.planetsView}>PLANETS</Link>
-          <Link to={RoutingPath.aboutView}>ABOUT</Link>
+          <Link to={RoutingPath.universeView} activeClassName="active">
+            UNIVERSE
+          </Link>
+          <Link to={RoutingPath.planetsView} activeClassName="active">
+            PLANETS
+          </Link>
+          <Link to={RoutingPath.aboutView} activeClassName="active">
+            ABOUT
+          </Link>
         </ul>
       </nav>
     </header>
