@@ -5,9 +5,11 @@ import PlanetsView from '../views/planetsview/PlanetsView';
 import AboutView from '../views/aboutview/AboutView';
 import RoutingPath from './RoutingPath';
 
-function Router() {
+// eslint-disable-next-line react/prop-types
+function Router({ children }) {
   return (
     <BrowserRouter>
+      {children}
       <Routes>
         <Route exact path={RoutingPath.planetsView} element={<PlanetsView />} />
         <Route exact path={RoutingPath.aboutView} element={<AboutView />} />
