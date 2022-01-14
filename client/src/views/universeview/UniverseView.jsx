@@ -1,7 +1,7 @@
 import React from 'react';
 
 function UniverseView() {
-  return <div>UniverseView</div>;
+  return <main>UniverseView</main>;
 }
 
 export default UniverseView;

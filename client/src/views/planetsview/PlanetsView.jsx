@@ -1,7 +1,7 @@
 import React from 'react';
 
 function PlanetsView() {
-  return <div>PlanetsView</div>;
+  return <main>PlanetsView</main>;
 }
 
 export default PlanetsView;

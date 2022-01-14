@@ -1,7 +1,7 @@
 import React from 'react';
 
 function AboutView() {
-  return <div>AboutView</div>;
+  return <main>AboutView</main>;
 }
 
 export default AboutView;
