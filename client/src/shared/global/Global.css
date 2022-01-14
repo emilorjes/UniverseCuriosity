@@ -18,3 +18,24 @@ body {
   );
   color: var(--clr-white);
 }
+
+header {
+  font-family: 'Iceland', cursive;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 2rem 7rem 2rem;
+}
+
+main {
+  padding: 0 7rem;
+}
+
+footer {
+  font-family: 'Iceland', cursive;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
