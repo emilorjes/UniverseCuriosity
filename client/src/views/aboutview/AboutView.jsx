@@ -1,7 +1,11 @@
 import React from 'react';
 
 function AboutView() {
-  return <main>AboutView</main>;
+  return (
+    <main>
+      <h1>AboutView</h1>
+    </main>
+  );
 }
 
 export default AboutView;

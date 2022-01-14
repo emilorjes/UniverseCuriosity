@@ -1,7 +1,11 @@
 import React from 'react';
 
 function UniverseView() {
-  return <main>UniverseView</main>;
+  return (
+    <main>
+      <h1>PlanetsView</h1>
+    </main>
+  );
 }
 
 export default UniverseView;
