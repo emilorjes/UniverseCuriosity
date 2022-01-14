@@ -3,7 +3,7 @@ import React from 'react';
 function UniverseView() {
   return (
     <main>
-      <h1>PlanetsView</h1>
+      <h1>UniverseView</h1>
     </main>
   );
 }
