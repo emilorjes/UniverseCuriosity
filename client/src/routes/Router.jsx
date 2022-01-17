@@ -5,6 +5,13 @@ import PlanetsView from '../views/planetsview/PlanetsView';
 import AboutView from '../views/aboutview/AboutView';
 import RoutingPath from './RoutingPath';
 
+/**
+ * BrowserRouter is the parent component that is used to store all of the other components ({children}) so the user can change between diffrent views.
+ * Routes is used to render only the first route that matches the location rather than rendering all matching routes.
+ * Route is used to renders some UI when its path matches the current URL.
+ * @param {children}
+ * @returns Routing between views
+ */
 // eslint-disable-next-line react/prop-types
 function Router({ children }) {
   return (

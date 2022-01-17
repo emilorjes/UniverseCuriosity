@@ -1,3 +1,6 @@
+/**
+ * Diffrent routing paths.
+ */
 const universeView = '/';
 const planetsView = '/planets';
 const aboutView = '/about';

@@ -3,6 +3,10 @@ import { NavLink as Link } from 'react-router-dom';
 import RoutingPath from '../../../routes/RoutingPath';
 import './DesktopNavigation.css';
 
+/**
+ * Uses Link and RoutingPath to navigate between diffrent views.
+ * @returns Links with routes to diffrent views.
+ */
 function DesktopNavigation() {
   return (
     <header>

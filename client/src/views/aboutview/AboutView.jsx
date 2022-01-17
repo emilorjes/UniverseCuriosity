@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * A view for the About page.
+ * @returns About view.
+ */
 function AboutView() {
   return (
     <main>

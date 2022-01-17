@@ -1,6 +1,10 @@
 import { React, useState, useEffect } from 'react';
 import PlanetsAPIService from '../../shared/api/service/PlanetsAPIService';
 
+/**
+ * A test function that test if the connection between server / database and client works.
+ * @returns Info about planets.
+ */
 function TestDb() {
   const [lisOfPlanets, setListOfPlanets] = useState([]);
 
