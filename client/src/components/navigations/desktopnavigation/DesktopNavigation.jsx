@@ -16,15 +16,9 @@ function DesktopNavigation() {
       </NavLink>
       <nav>
         <ul>
-          <NavLink to={RoutingPath.universeView} activeclassname="active">
-            UNIVERSE
-          </NavLink>
-          <NavLink to={RoutingPath.planetsView} activeclassname="active">
-            PLANETS
-          </NavLink>
-          <NavLink to={RoutingPath.aboutView} activeclassname="active">
-            ABOUT
-          </NavLink>
+          <NavLink to={RoutingPath.universeView}>UNIVERSE</NavLink>
+          <NavLink to={RoutingPath.planetsView}>PLANETS</NavLink>
+          <NavLink to={RoutingPath.aboutView}>ABOUT</NavLink>
         </ul>
       </nav>
     </header>
