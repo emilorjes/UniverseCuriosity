@@ -1,30 +1,24 @@
 import React from 'react';
-import { NavLink as Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import RoutingPath from '../../../routes/RoutingPath';
 import './DesktopNavigation.css';
 
 /**
- * Uses Link and RoutingPath to navigate between diffrent views.
- * @returns Links with routes to diffrent views.
+ * Uses NavLink and RoutingPath to navigate between diffrent views.
+ * @returns NavLinks with routes to diffrent views.
  */
 function DesktopNavigation() {
   return (
     <header>
-      <Link to={RoutingPath.universeView} className="logo">
+      <NavLink to={RoutingPath.universeView} className="logo">
         UNIVERSE CURIOSITY
         <span className="logo-slogan">A JOURNEY TROUGH SPACE AND TIME</span>
-      </Link>
+      </NavLink>
       <nav>
         <ul>
-          <Link to={RoutingPath.universeView} activeClassName="active">
-            UNIVERSE
-          </Link>
-          <Link to={RoutingPath.planetsView} activeClassName="active">
-            PLANETS
-          </Link>
-          <Link to={RoutingPath.aboutView} activeClassName="active">
-            ABOUT
-          </Link>
+          <NavLink to={RoutingPath.universeView}>UNIVERSE</NavLink>
+          <NavLink to={RoutingPath.planetsView}>PLANETS</NavLink>
+          <NavLink to={RoutingPath.aboutView}>ABOUT</NavLink>
         </ul>
       </nav>
     </header>
