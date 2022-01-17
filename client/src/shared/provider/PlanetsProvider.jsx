@@ -15,13 +15,18 @@ export function PlanetsProvider({ children }) {
     [listOfPlanets]
   );
 
-  const fetchData = async () => {
-    const { data } = await PlanetsAPIService.getAllPlanets();
-    setListOfPlanets(data);
+  const fetchPlanets = async () => {
+    try {
+      const { data } = await PlanetsAPIService.getAllPlanets();
+      setListOfPlanets(data);
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error(error);
+    }
   };
 
   useEffect(() => {
-    fetchData();
+    fetchPlanets();
   }, []);
 
   return (
