@@ -1,9 +1,8 @@
 import React from 'react';
 import './Footer.css';
+import { getCurrentYear } from '../../shared/utils/DateUtils';
 
 function Footer() {
-  const getCurrentYear = () => new Date().getFullYear();
-
   return (
     <footer>
       <p>© {getCurrentYear()} Universe Curiosity</p>
