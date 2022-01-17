@@ -16,6 +16,7 @@ body {
     var(--clr-black) 25%,
     var(--clr-blue-dark) 110%
   );
+  background-attachment: fixed;
   color: var(--clr-white);
 }
 
