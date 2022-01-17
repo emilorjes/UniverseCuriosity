@@ -11,7 +11,7 @@ function TestDb() {
   return (
     <div>
       {listOfPlanets.map((planet) => (
-        <div>
+        <div key={planet.name}>
           <h2>Name: {planet.name}</h2>
           <p>Position from sun: {planet.position}</p>
           <p>Number of moons: {planet.moons}</p>

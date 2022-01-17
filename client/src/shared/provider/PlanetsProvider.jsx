@@ -27,6 +27,8 @@ export function PlanetsProvider({ children }) {
 
   useEffect(() => {
     fetchPlanets();
+    // eslint-disable-next-line no-console
+    console.log('Planetdata fetch');
   }, []);
 
   return (
