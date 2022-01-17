@@ -10,7 +10,7 @@ export const PlanetsContext = createContext();
  * @returns PlanetsContext provider with the global value "planetsValue"(useMemo) so it can be reached from other components.
  */
 // eslint-disable-next-line react/prop-types
-export function PlanetsProvider({ children }) {
+function PlanetsProvider({ children }) {
   const [listOfPlanets, setListOfPlanets] = useState([]);
 
   const planetsValue = useMemo(
