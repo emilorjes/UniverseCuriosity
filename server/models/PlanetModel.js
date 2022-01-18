@@ -20,6 +20,9 @@ const planetSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  image: {
+    type: String,
+  },
 });
 
 const PlanetModel = mongoose.model('planets', planetSchema);
