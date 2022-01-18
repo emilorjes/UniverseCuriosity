@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: var(--clr-blue-light);
+  border-radius: 10%;
+  width: 12rem;
+  height: 20rem;
+  margin-right: 5rem;
+}
+
+.card h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  width: 100%;
+}
