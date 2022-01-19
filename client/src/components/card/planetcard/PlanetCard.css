@@ -1,21 +1,30 @@
 .cards {
   display: flex;
   justify-content: center;
+  gap: 5rem;
 }
 
 .card {
-  background: var(--clr-blue-light);
+  background: var(--clr-black);
   border-radius: 10%;
   width: 12rem;
-  height: 20rem;
-  margin-right: 5rem;
+  height: 18rem;
+  border: 5px solid transparent;
+  border-color: var(--clr-blue-light);
 }
 
-.card h2 {
+.card:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Iceland', cursive;
   display: flex;
   justify-content: center;
 }
 
-.card img {
+img {
   width: 100%;
 }

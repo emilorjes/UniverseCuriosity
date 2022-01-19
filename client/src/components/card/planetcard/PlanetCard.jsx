@@ -8,11 +8,9 @@ function PlanetCard() {
   return (
     <div className="cards">
       {listOfPlanets.map((planet) => (
-        <div className="card">
-          <div key={planet.name}>
-            <h2> {planet.name}</h2>
-            <img src={planet.image} alt="" />
-          </div>
+        <div className="card" key={planet.name}>
+          <h2> {planet.name}</h2>
+          <img src={planet.image} alt="" />
         </div>
       ))}
     </div>
