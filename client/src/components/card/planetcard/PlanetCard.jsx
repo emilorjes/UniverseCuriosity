@@ -29,7 +29,9 @@ function PlanetCard() {
           </div>
         ))}
       </div>
-      <PlanetModal trigger={showModal} planet={modalData} />
+      {showModal && (
+        <PlanetModal planet={modalData} closeModal={setShowModal} />
+      )}
     </>
   );
 }

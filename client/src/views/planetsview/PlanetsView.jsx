@@ -8,7 +8,6 @@ import PlanetCard from '../../components/card/planetcard/PlanetCard';
 function PlanetsView() {
   return (
     <main>
-      <h1>PlanetsView</h1>
       <PlanetCard />
     </main>
   );
