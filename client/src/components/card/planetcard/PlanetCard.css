@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.card {
+  background: var(--clr-black);
+  border-radius: 10%;
+  width: 12rem;
+  height: 18rem;
+  border: 2px solid transparent;
+  border-color: var(--clr-blue-light);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+
+  box-shadow: 0px 6px 10px var(--clr-blue-light);
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Iceland', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}

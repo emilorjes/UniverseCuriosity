@@ -1,5 +1,5 @@
 import React from 'react';
-import TestDb from '../../components/testdb/TestDb';
+import PlanetCard from '../../components/card/planetcard/PlanetCard';
 
 /**
  * A view for the Planets page.
@@ -9,7 +9,7 @@ function PlanetsView() {
   return (
     <main>
       <h1>PlanetsView</h1>
-      <TestDb />
+      <PlanetCard />
     </main>
   );
 }
