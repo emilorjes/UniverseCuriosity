@@ -2,9 +2,9 @@
 import React from 'react';
 import './PlanetModal.css';
 
-function PlanetModal({ planet, closeModal }) {
+function PlanetModal({ planet, modalOpen }) {
   const handleClick = () => {
-    closeModal(false);
+    modalOpen(false);
   };
 
   return (

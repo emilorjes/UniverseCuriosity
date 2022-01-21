@@ -7,12 +7,12 @@ import './PlanetCard.css';
 
 function PlanetCard() {
   const { listOfPlanets } = useContext(PlanetsContext);
-  const [showModal, setShowModal] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
 
   const handleClick = (planet) => {
     setModalData(planet);
-    setShowModal(true);
+    setModalOpen(true);
   };
 
   return (
@@ -25,13 +25,11 @@ function PlanetCard() {
             key={planet.name}
           >
             <h2> {planet.name}</h2>
-            <img src={planet.image} alt="" />
+            <img src={planet.image} alt={planet.name} />
           </div>
         ))}
       </div>
-      {showModal && (
-        <PlanetModal planet={modalData} closeModal={setShowModal} />
-      )}
+      {modalOpen && <PlanetModal planet={modalData} modalOpen={setModalOpen} />}
     </>
   );
 }
