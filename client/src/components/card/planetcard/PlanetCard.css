@@ -1,22 +1,23 @@
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .card {
   background: var(--clr-black);
-  border-radius: 10%;
-  width: 12rem;
-  height: 18rem;
+  border-radius: 15px;
   border: 2px solid transparent;
   border-color: var(--clr-blue-light);
   transition: all 0.3s;
+  display: flex;
+  flex: 0 0 20%;
+  align-items: center;
 }
 
 .card:hover {
   transform: scale(1.05);
-
   box-shadow: 0px 6px 10px var(--clr-blue-light);
   cursor: pointer;
 }
@@ -25,8 +26,12 @@ h2 {
   font-family: 'Iceland', cursive;
   display: flex;
   justify-content: center;
+  margin-left: 1rem;
 }
 
 img {
-  width: 100%;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-left: 1rem;
 }
