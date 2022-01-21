@@ -2,9 +2,9 @@
 import React from 'react';
 import './PlanetModal.css';
 
-function PlanetModal({ planet, closeModal }) {
+function PlanetModal({ planet, modalOpen }) {
   const handleClick = () => {
-    closeModal(false);
+    modalOpen(false);
   };
 
   return (
@@ -39,7 +39,7 @@ function PlanetModal({ planet, closeModal }) {
           Time for light to travel from sun to {planet.name}:{' '}
           {planet.lightFromSunTime} sec
         </h4>
-        <h4>Lowest surface temperature: {planet.lowTemperature} °C</h4>
+        <h4>Lowest surface temperature: - {planet.lowTemperature} °C</h4>
         <h4>Highest surface temperature: {planet.highTemperature} °C</h4>
       </div>
     </div>
