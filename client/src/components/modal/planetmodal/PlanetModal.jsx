@@ -39,7 +39,7 @@ function PlanetModal({ planet, modalOpen }) {
           Time for light to travel from sun to {planet.name}:{' '}
           {planet.lightFromSunTime} sec
         </h4>
-        <h4>Lowest surface temperature: - {planet.lowTemperature} °C</h4>
+        <h4>Lowest surface temperature: {planet.lowTemperature} °C</h4>
         <h4>Highest surface temperature: {planet.highTemperature} °C</h4>
       </div>
     </div>
