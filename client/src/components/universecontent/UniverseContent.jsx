@@ -1,31 +1,24 @@
 import React from 'react';
 import './UniverseContent.css';
-import {
-  universeShortDescribe,
-  universeAge,
-  bigBangShortDescribe,
-  bigBangLongDescribe,
-  galaxayShortDescribe,
-  galaxyLongDescribe,
-} from '../../shared/res/content/UniverseTextContent';
+import UniverseTextContent from '../../shared/res/content/UniverseTextContent';
 
 function UniverseContent() {
   return (
     <div>
       <div className="container">
         <h2>The Universe</h2>
-        <p>{universeShortDescribe}</p>
-        <p>{universeAge}</p>
+        <p>{UniverseTextContent.universeShortDescribe}</p>
+        <p>{UniverseTextContent.universeAge}</p>
       </div>
       <div className="container">
         <h2>The Big Bang</h2>
-        <p>{bigBangShortDescribe}</p>
-        <p>{bigBangLongDescribe}</p>
+        <p>{UniverseTextContent.bigBangShortDescribe}</p>
+        <p>{UniverseTextContent.bigBangLongDescribe}</p>
       </div>
       <div className="container">
         <h2>What is a Galaxy?</h2>
-        <p>{galaxayShortDescribe}</p>
-        <p>{galaxyLongDescribe}</p>
+        <p>{UniverseTextContent.galaxayShortDescribe}</p>
+        <p>{UniverseTextContent.galaxyLongDescribe}</p>
       </div>
     </div>
   );
