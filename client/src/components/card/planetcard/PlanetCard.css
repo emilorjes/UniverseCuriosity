@@ -2,7 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
+  margin: 0 10rem 8rem 10rem;
+  border-radius: 15px;
 }
 
 .card {
@@ -11,8 +13,6 @@
   border: 2px solid transparent;
   border-color: var(--clr-blue-light);
   transition: all 0.3s;
-  display: flex;
-  flex: 0 0 20%;
   align-items: center;
 }
 
@@ -22,16 +22,15 @@
   cursor: pointer;
 }
 
-h2 {
+.card h2 {
   font-family: 'Iceland', cursive;
   display: flex;
   justify-content: center;
-  margin-left: 1rem;
 }
 
-img {
+.card img {
   width: 150px;
   height: 150px;
   object-fit: contain;
-  margin-left: 1rem;
+  padding: 2.05rem;
 }

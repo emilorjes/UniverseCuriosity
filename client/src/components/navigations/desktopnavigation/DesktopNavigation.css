@@ -11,7 +11,7 @@ nav ul a {
 }
 
 nav ul a:hover {
-  color: var(--clr-blue-light);
+  color: var(--clr-blue-lighter);
 }
 
 nav ul a.active {
