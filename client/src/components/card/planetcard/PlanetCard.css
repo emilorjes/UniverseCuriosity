@@ -13,8 +13,6 @@
   border: 2px solid transparent;
   border-color: var(--clr-blue-light);
   transition: all 0.3s;
-  display: flex;
-  flex: 0 0 20%;
 }
 
 .card:hover {
