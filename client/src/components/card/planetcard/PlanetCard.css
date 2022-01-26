@@ -13,7 +13,8 @@
   border: 2px solid transparent;
   border-color: var(--clr-blue-light);
   transition: all 0.3s;
-  align-items: center;
+  display: flex;
+  flex: 0 0 20%;
 }
 
 .card:hover {
@@ -26,6 +27,7 @@
   font-family: 'Iceland', cursive;
   display: flex;
   justify-content: center;
+  margin-left: 1rem;
 }
 
 .card img {
