@@ -24,7 +24,7 @@ Some galaxies are spiral-shaped like ours. They have curved arms that make it lo
 
 Sometimes galaxies get too close and smash into each other. Our Milky Way galaxy will someday bump into Andromeda, our closest galactic neighbor. But don’t worry. It won’t happen for about five billion years. But even if it happened tomorrow, you might not notice. Galaxies are so big and spread out at the ends that even though galaxies bump into each other, the planets and solar systems often don’t get close to colliding.`;
 
-export {
+export default {
   universeShortDescribe,
   universeAge,
   bigBangShortDescribe,
