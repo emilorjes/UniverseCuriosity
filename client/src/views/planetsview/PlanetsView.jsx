@@ -1,5 +1,5 @@
 import React from 'react';
-import PlanetCard from '../../components/card/planetcard/PlanetCard';
+import PlanetContent from '../../components/viewcontent/planetcontent/PlanetContent';
 
 /**
  * A view for the Planets page.
@@ -8,7 +8,7 @@ import PlanetCard from '../../components/card/planetcard/PlanetCard';
 function PlanetsView() {
   return (
     <main>
-      <PlanetCard />
+      <PlanetContent />
     </main>
   );
 }
