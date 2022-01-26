@@ -1,4 +1,5 @@
 import React from 'react';
+import UniverseContent from '../../components/universecontent/UniverseContent';
 
 /**
  * A view for the Universe page.
@@ -7,7 +8,7 @@ import React from 'react';
 function UniverseView() {
   return (
     <main>
-      <h1>UniverseView</h1>
+      <UniverseContent />
     </main>
   );
 }

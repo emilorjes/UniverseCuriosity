@@ -6,15 +6,15 @@ const bigBangShortDescribe = `The big bang is how astronomers explain the way th
 
 const bigBangLongDescribe = `When the universe began, it was just hot, tiny particles mixed with light and energy. It was nothing like what we see now. As everything expanded and took up more space, it cooled down.
 
-    The tiny particles grouped together. They formed atoms. Then those atoms grouped together. Over lots of time, atoms came together to form stars and galaxies.
+The tiny particles grouped together. They formed atoms. Then those atoms grouped together. Over lots of time, atoms came together to form stars and galaxies.
     
-    The first stars created bigger atoms and groups of atoms. That led to more stars being born. At the same time, galaxies were crashing and grouping together. As new stars were being born and dying, then things like asteroids, comets, planets, and black holes formed!`;
+The first stars created bigger atoms and groups of atoms. That led to more stars being born. At the same time, galaxies were crashing and grouping together. As new stars were being born and dying, then things like asteroids, comets, planets, and black holes formed!`;
 
 const galaxayShortDescribe = `A galaxy is a huge collection of gas, dust, and billions of stars and their solar systems, all held together by gravity.`;
 
 const galaxyLongDescribe = `We live on a planet called Earth that is part of our solar system. But where is our solar system? It’s a small part of the Milky Way Galaxy.
 
-A galaxy is a huge collection of gas, dust, and  of stars and their solar systems. A galaxy is held together by gravity. Our galaxy, the Milky Way, also has a supermassiv black hole in the middle.
+A galaxy is held together by gravity. Our galaxy, the Milky Way, also has a supermassiv black hole in the middle.
 
 When you look up at stars in the night sky, you’re seeing other stars in the Milky Way. If it’s really dark, far away from lights from cities and houses, you can even see the dusty bands of the Milky Way stretch across the sky.
 
