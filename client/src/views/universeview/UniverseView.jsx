@@ -1,5 +1,5 @@
 import React from 'react';
-import UniverseContent from '../../components/universecontent/UniverseContent';
+import UniverseContent from '../../components/viewcontent/universecontent/UniverseContent';
 
 /**
  * A view for the Universe page.

@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutContent from '../../components/aboutcontent/AboutContent';
+import AboutContent from '../../components/viewcontent/aboutcontent/AboutContent';
 
 /**
  * A view for the About page.

@@ -1,10 +1,11 @@
 import React from 'react';
 import './UniverseContent.css';
-import UniverseTextContent from '../../shared/res/content/UniverseTextContent';
+import UniverseTextContent from '../../../shared/res/content/UniverseTextContent';
 
 function UniverseContent() {
   return (
     <div>
+      <h1 className="heading">Facts about the universe</h1>
       <div className="container">
         <h2>The Universe</h2>
         <p>{UniverseTextContent.universeShortDescribe}</p>

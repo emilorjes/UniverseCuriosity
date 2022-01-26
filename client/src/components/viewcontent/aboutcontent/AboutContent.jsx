@@ -1,11 +1,12 @@
 import React from 'react';
 import './AboutContent.css';
-import AboutTextContent from '../../shared/res/content/AboutTextContent';
-import { getCurrentYear } from '../../shared/utils/DateUtils';
+import AboutTextContent from '../../../shared/res/content/AboutTextContent';
+import { getCurrentYear } from '../../../shared/utils/DateUtils';
 
 function AboutContent() {
   return (
     <div>
+      <h1 className="heading">About Universe Curiosity</h1>
       <div className="container">
         <h2>Universe Curiosity</h2>
         <p>{AboutTextContent.about}</p>
