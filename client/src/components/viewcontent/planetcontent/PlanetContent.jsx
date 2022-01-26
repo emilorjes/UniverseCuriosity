@@ -1,6 +1,6 @@
 import React from 'react';
 import './PlanetContent.css';
-import PlanetCard from '../../card/planetcard/PlanetCard';
+import PlanetCard from '../../cards/planetcard/PlanetCard';
 
 function PlanetContent() {
   return (
