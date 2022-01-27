@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config('./.env');
 const express = require('express'); // Framework for routes and handling requests.
 const mongoose = require('mongoose'); // Makes connection to MongoDB easier and to create models.
 const cors = require('cors'); // Request between server and client.
