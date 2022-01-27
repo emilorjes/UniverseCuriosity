@@ -8,8 +8,6 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose
-  .connect(process.env.TEST_DB)
-  .then(() => app.listen(process.env.PORT || 4000));
+mongoose.connect(process.env.TEST_DB).then(() => app.listen(process.env.PORT));
 
 app.use('/api/planet', planetRoutes);
