@@ -1,0 +1,43 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.modal {
+  width: 80%;
+  height: 80%;
+  background: var(--clr-blue-lighter);
+  color: var(--clr-black);
+  z-index: 10;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px 0 var(--clr-blue-light);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid transparent;
+  border-color: var(--clr-blue-light);
+  padding-left: 2%;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: var(--clr-black);
+  font-size: 2rem;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+
+.close-btn:hover {
+  transform: scale(1.5);
+}

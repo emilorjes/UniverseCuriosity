@@ -1,0 +1,36 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 10rem 8rem 10rem;
+  border-radius: 15px;
+}
+
+.card {
+  background: var(--clr-black);
+  border-radius: 15px;
+  border: 2px solid transparent;
+  border-color: var(--clr-blue-light);
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 10px var(--clr-blue-light);
+  cursor: pointer;
+}
+
+.card h2 {
+  font-family: 'Iceland', cursive;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  padding: 2.05rem;
+}
