@@ -16,7 +16,7 @@ function PlanetCard() {
   };
 
   return (
-    <>
+    <div className="container">
       <div className="cards">
         {listOfPlanets.map((planet) => (
           <div
@@ -30,7 +30,7 @@ function PlanetCard() {
         ))}
       </div>
       {modalOpen && <PlanetModal planet={modalData} modalOpen={setModalOpen} />}
-    </>
+    </div>
   );
 }
 

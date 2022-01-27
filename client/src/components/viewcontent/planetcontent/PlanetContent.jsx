@@ -4,8 +4,8 @@ import PlanetCard from '../../cards/planetcard/PlanetCard';
 
 function PlanetContent() {
   return (
-    <div>
-      <h1 className="heading">Explore the planets in our solar system</h1>
+    <div className="container">
+      <h1>Explore the planets in our solar system</h1>
       <PlanetCard />
     </div>
   );

@@ -1,16 +1,1 @@
-.container {
-  white-space: pre-wrap;
-  background-color: var(--clr-blue-lighter);
-  color: black;
-  padding: 2rem;
-  margin: 0 10rem 8rem 10rem;
-  border-radius: 15px;
-}
 
-.container h2 {
-  text-align: center;
-}
-
-.heading {
-  text-align: center;
-}

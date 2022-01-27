@@ -26,12 +26,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 7rem 2rem;
+  padding-top: 2rem;
+  width: min(90%);
+  margin: 0 auto;
+  max-width: 1920px;
 }
 
 main {
-  padding: 0 7rem;
-  margin-top: 4rem;
   margin-top: 4rem;
 }
 
@@ -41,4 +42,26 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+@media (min-width: 460px) {
+  .container {
+    width: min(90%);
+    margin: 0 auto;
+    max-width: 1920px;
+  }
+  .content {
+    white-space: pre-wrap;
+    background-color: var(--clr-blue-lighter);
+    color: black;
+    padding: 2rem;
+    margin: 0 auto 5rem auto;
+    border-radius: 15px;
+    width: 50%;
+  }
+
+  .container h1,
+  h2 {
+    text-align: center;
+  }
 }
