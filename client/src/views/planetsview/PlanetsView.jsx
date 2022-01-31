@@ -1,5 +1,6 @@
 import React from 'react';
 import PlanetContent from '../../components/viewcontent/planetcontent/PlanetContent';
+import Footer from '../../components/footer/Footer';
 
 /**
  * A view for the Planets page.
@@ -7,9 +8,12 @@ import PlanetContent from '../../components/viewcontent/planetcontent/PlanetCont
  */
 function PlanetsView() {
   return (
-    <main>
-      <PlanetContent />
-    </main>
+    <>
+      <main>
+        <PlanetContent />
+      </main>
+      <Footer />
+    </>
   );
 }
 

@@ -6,7 +6,7 @@ import { getCurrentYear } from '../../../shared/utils/DateUtils';
 function AboutContent() {
   return (
     <div className="container">
-      <h1 className="heading">About Universe Curiosity</h1>
+      <h1>About Universe Curiosity</h1>
       <div className="content">
         <h2>Universe Curiosity</h2>
         <p>{AboutTextContent.about}</p>

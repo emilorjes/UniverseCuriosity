@@ -1,5 +1,6 @@
 import React from 'react';
 import UniverseContent from '../../components/viewcontent/universecontent/UniverseContent';
+import Footer from '../../components/footer/Footer';
 
 /**
  * A view for the Universe page.
@@ -7,9 +8,12 @@ import UniverseContent from '../../components/viewcontent/universecontent/Univer
  */
 function UniverseView() {
   return (
-    <main>
-      <UniverseContent />
-    </main>
+    <>
+      <main>
+        <UniverseContent />
+      </main>
+      <Footer />
+    </>
   );
 }
 

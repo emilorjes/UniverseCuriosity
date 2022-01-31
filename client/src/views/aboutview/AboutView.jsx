@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutContent from '../../components/viewcontent/aboutcontent/AboutContent';
+import Footer from '../../components/footer/Footer';
 
 /**
  * A view for the About page.
@@ -7,9 +8,12 @@ import AboutContent from '../../components/viewcontent/aboutcontent/AboutContent
  */
 function AboutView() {
   return (
-    <main>
-      <AboutContent />
-    </main>
+    <>
+      <main>
+        <AboutContent />
+      </main>
+      <Footer />
+    </>
   );
 }
 

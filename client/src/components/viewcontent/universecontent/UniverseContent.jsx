@@ -5,7 +5,7 @@ import UniverseTextContent from '../../../shared/res/content/UniverseTextContent
 function UniverseContent() {
   return (
     <div className="container">
-      <h1 className="heading">Facts about the universe</h1>
+      <h1>Facts about the universe</h1>
       <div className="content">
         <h2>The Universe</h2>
         <p>{UniverseTextContent.universeShortDescribe}</p>
