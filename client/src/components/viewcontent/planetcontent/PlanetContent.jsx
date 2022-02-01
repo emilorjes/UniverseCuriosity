@@ -1,7 +1,10 @@
 import React from 'react';
-import './PlanetContent.css';
 import PlanetCard from '../../cards/planetcard/PlanetCard';
 
+/**
+ * Shows content that is used for the planets page.
+ * @returns Planets content.
+ */
 function PlanetContent() {
   return (
     <div className="container">

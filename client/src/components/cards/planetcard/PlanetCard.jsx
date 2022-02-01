@@ -5,11 +5,20 @@ import { PlanetsContext } from '../../../shared/provider/PlanetsProvider';
 import PlanetModal from '../../modal/planetmodal/PlanetModal';
 import './PlanetCard.css';
 
+/**
+ * Maps over PlanetsContext and shows a card for each planet.
+ * If the card is clicked a model with more info about the planet is shown.
+ * @returns Card for each planet. If modalOpen is true the modal of specific planet is returned to.
+ */
 function PlanetCard() {
   const { listOfPlanets } = useContext(PlanetsContext);
   const [modalOpen, setModalOpen] = useState(false);
   const [modalData, setModalData] = useState(null);
 
+  /**
+   * When handleClick function is used setModalData is set to the the planets info.
+   * And modalOpen is set to true.
+   */
   const handleClick = (planet) => {
     setModalData(planet);
     setModalOpen(true);

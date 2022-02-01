@@ -2,7 +2,18 @@
 import React from 'react';
 import './PlanetModal.css';
 
+/**
+ * PlanetModal shows detail info about a planet.
+ * To close modal handleClick is used and sets modelOpen to false.
+ * modalOpen is pass trough props and is then used in PlanetCard.
+ * @param {planet, modalOpen}.
+ * @returns Detail info about a planet.
+ */
 function PlanetModal({ planet, modalOpen }) {
+  /**
+   * handleClick is used to close the modal.
+   * When handleClick is used modalOpen is set to false.
+   */
   const handleClick = () => {
     modalOpen(false);
   };

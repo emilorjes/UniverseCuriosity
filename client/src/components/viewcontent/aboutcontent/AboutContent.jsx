@@ -1,8 +1,11 @@
 import React from 'react';
-import './AboutContent.css';
 import AboutTextContent from '../../../shared/res/content/AboutTextContent';
 import { getCurrentYear } from '../../../shared/utils/DateUtils';
 
+/**
+ * Shows content that is used for the about page.
+ * @returns About content.
+ */
 function AboutContent() {
   return (
     <div className="container">

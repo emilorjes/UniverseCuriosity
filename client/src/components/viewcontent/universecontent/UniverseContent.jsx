@@ -1,7 +1,10 @@
 import React from 'react';
-import './UniverseContent.css';
 import UniverseTextContent from '../../../shared/res/content/UniverseTextContent';
 
+/**
+ * Shows content that is used for the planets page.
+ * @returns Universe content.
+ */
 function UniverseContent() {
   return (
     <div className="container">
